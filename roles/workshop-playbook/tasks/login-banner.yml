@@ -1,5 +1,4 @@
 ---
-
 - name: Set Login banner
   cisco.ios.ios_banner:
     banner: login
@@ -10,7 +9,7 @@
         #   All connections are monitored and recorded.          #\n
         #   You have successfully entered this system.           #\n
       #                                                          #\n
-      #######################################################
+      #######################################################\n
       |
-  status: present 
+    status: present 
 
