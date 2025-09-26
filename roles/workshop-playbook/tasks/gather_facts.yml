@@ -1,14 +1,14 @@
 ---
-tasks:
-  - name: Gather facts from Cisco IOS devices
-    cisco.ios.ios_facts: 
-      gather_subnet: -all 
-        #all, min, default, hardware, config, and interface 
-    register: ios_facts_output
 
-  - name: Display IOS facts
-    ansible.builtin.debug: 
-    var: ios_facts_output.ansible_facts
+- name: Gather facts from Cisco IOS devices
+  cisco.ios.ios_facts: 
+  gather_subnet: -all 
+        #all, min, default, hardware, config, and interface 
+  register: ios_facts_output
+
+- name: Display IOS facts
+  ansible.builtin.debug: 
+  var: ios_facts_output.ansible_facts
 
     # name: Show hostname and OS version
     # debug: 
