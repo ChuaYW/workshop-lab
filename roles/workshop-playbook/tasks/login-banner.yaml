@@ -4,6 +4,7 @@
     banner: login
     multiline_delimiter: '%'
     text: | 
+
       #######################################################\n
       #                                                          #\n
         #   WARNING: Unauthorized access is strictly prohibited. #\n

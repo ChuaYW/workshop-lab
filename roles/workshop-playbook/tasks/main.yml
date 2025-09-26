@@ -3,4 +3,7 @@
 #  import_tasks: gather_facts.yml
 
 - name: "Task 2: Set Login banner"
-  import_tasks:  login-banner.yml
+  import_tasks:  login-banner.yaml
+
+ # - name: "Task 3: Set SMNP configuration"
+  #  import_tasks: config-snmp.yaml
