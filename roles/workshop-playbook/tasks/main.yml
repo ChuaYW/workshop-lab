@@ -6,4 +6,4 @@
   import_tasks:  login-banner.yaml
 
 - name: "Task 3: Set SMNP configuration"
-  import_tasks: config-snmp.yaml
+  import_tasks: config-symp.yaml
