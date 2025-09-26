@@ -1,8 +1,7 @@
 ---
 - name: Set Login banner
-  cisco.ios.ios_banner:
-    banner: login
-    text: | 
+  banner: login
+  text: | 
       #######################################################
       #                                                          #
         #   WARNING: Unauthorized access is strictly prohibited. #
@@ -10,5 +9,5 @@
         #   You have successfully entered this system.           #
       #                                                          #
       #######################################################
-    status: present 
-    
+  status: present 
+
