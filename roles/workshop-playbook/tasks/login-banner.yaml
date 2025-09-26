@@ -1,4 +1,5 @@
 ---
+
 - name: Set Login banner
   cisco.ios.ios_banner:
     banner: login
