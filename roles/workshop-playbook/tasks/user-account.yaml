@@ -4,5 +4,5 @@
     name: "{{new_user}}"
     configured_password: "{{new_password}}"
     password_type: password
-    priviledge: 15
+    privilege: 15
     state: present 
