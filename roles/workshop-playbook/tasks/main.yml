@@ -10,3 +10,4 @@
 
 - name: "Task 4: Set User Account"
   import_tasks: user-account.yaml
+  import_vars: new-username.yaml
