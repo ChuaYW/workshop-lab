@@ -8,7 +8,10 @@
 #- name: "Task 3: Set SMNP configuration"
 #  import_tasks: config-symp.yaml
 
-- name: "Task 4: Set User Account"
-  import_tasks: user-account.yaml
+
+- name: "Task 4a: Credentials"  
   include_vars: 
     file: new-username.yaml
+
+- name: "Task 4: Set User Account"
+  import_tasks: user-account.yaml
