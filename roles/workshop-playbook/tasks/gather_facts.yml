@@ -11,4 +11,7 @@
 
     # name: Show hostname and OS version
     # debug: 
-      #msg   
+      #msg:
+      # Hostname: {{ anisible_net_hostname}}
+      #IOS version: {{anisible_net_version}}
+      #Model: {{anisible_net_model}}   
