@@ -2,7 +2,7 @@
 
 - name: Push SNMP configuration
   cisco.ios.ios_snmp_server: 
-    status: merged 
+    state: merged 
     config: 
       location: "Datacenter-1"
       packet_size: 1024 
