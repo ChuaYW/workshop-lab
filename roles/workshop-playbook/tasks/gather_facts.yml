@@ -8,7 +8,7 @@
 
 - name: Display IOS facts
   ansible.builtin.debug: 
-  var: ios_facts_output.ansible_facts
+    msg: ios_facts_output.ansible_facts
 
     # name: Show hostname and OS version
     # debug: 
