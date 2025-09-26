@@ -1,9 +1,8 @@
 ---
-
 - name: Set user account
   cisco.ios.ios_user:
-  name: "{{new_user}}"
-  configured_password: "{{new_password}}"
-  password_type: password
-  priviledge: 15
-  state: present 
+    name: "{{new_user}}"
+    configured_password: "{{new_password}}"
+    password_type: password
+    priviledge: 15
+    state: present 
