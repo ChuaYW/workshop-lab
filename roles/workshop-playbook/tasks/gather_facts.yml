@@ -2,7 +2,7 @@
 
 - name: Gather facts from Cisco IOS devices
   cisco.ios.ios_facts: 
-    gather_subset: -all 
+    gather_subset: all 
         #all, min, default, hardware, config, and interface 
 
 - name: Display IOS facts
