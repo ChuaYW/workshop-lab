@@ -1,4 +1,4 @@
 ---
 
-new_username: ansible_user
+new_user: ansible_user
 new_password: mySecurePassword123
